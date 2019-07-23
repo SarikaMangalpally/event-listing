@@ -1,0 +1,44 @@
+#header{
+    position: fixed;
+    top:0;
+    height:75px;
+    margin-left: -0.8%;
+    width: 100%;
+    background-color: #e7c03d48
+}
+#header ul li{
+    padding-top: 8px;
+    list-style: none;
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif
+}
+#header a{
+    text-decoration: none
+}
+body{
+    position: relative;
+    margin-top:80px;
+    background-color: #f8f79c48;
+   
+}
+#eventdata{
+    width:70%;
+    height:auto;
+   margin: 5% 10% 5% 12%;
+   padding-left:15px;
+    line-height:1.6;
+    border: 1px solid rgb(47, 32, 32);
+    box-shadow: 1.5px 1.5px rgb(82, 61, 22);
+}
+
+#date-name{
+    font-size:30px;
+    color: #4e4c47;
+}
+#googlemap{
+    text-align: center;
+}
+#eventdetails{
+    margin:15px 10px 15px 15px;
+    padding:5px 0px;
+}

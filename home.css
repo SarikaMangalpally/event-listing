@@ -3,6 +3,8 @@
     font-size: 20px;
     float: left;
     padding-top:3px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
 }
  #header a{
     text-decoration: none;
@@ -21,11 +23,31 @@ body{
     margin-top:80px;
     background-color: #f8f79c48;
 }
+#body-div{
+    width: 45%;
+}
 #body-div ul li{
     line-height: 1.5;
     font-size: 16px;
     list-style: none;
+    border: 1px solid #272525;
+    border-radius: 4px;
+    box-shadow:1.5px 1.5px #9b9999;
+    margin-bottom:5px;
 }
 #body-div a{
     text-decoration:none;
+}
+.eventdata{
+    column-count: 2;
+}
+#startday{
+    width:25%;
+    padding: 20px 35px;
+    column-width: 18px;
+    height:100%;
+}
+#content{
+ margin-left:-55%;
+ line-height: 1.8;   
 }
