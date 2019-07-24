@@ -30,10 +30,16 @@ body{
     border: 1px solid rgb(47, 32, 32);
     box-shadow: 1.5px 1.5px rgb(82, 61, 22);
 }
-
+#day_name{
+    font-size: 30px;
+    color: #15111ff6;
+}
 #date-name{
     font-size:30px;
     color: #4e4c47;
+}
+h3{
+    font-size:20px;
 }
 #googlemap{
     text-align: center;
@@ -41,4 +47,5 @@ body{
 #eventdetails{
     margin:15px 10px 15px 15px;
     padding:5px 0px;
+    font-size:20px;
 }
