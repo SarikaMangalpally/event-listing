@@ -9,7 +9,7 @@
 #header ul li{
     padding-top: 8px;
     list-style: none;
-    font-size:18px;
+    font-size:20px;
     font-family: 'Times New Roman', Times, serif
 }
 #header a{
@@ -18,12 +18,13 @@
 body{
     position: relative;
     margin-top:80px;
-    background-color: #f8f79c48;
+    background-color: #fffc5e00;
    
 }
 #eventdata{
     width:70%;
     height:auto;
+    background-color: rgba(203, 240, 240, 0.445);
    margin: 5% 10% 5% 12%;
    padding-left:15px;
     line-height:1.6;

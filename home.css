@@ -10,6 +10,9 @@
     text-decoration: none;
     color: rgb(173, 135, 9);
 }
+#headerList li{
+    font-size:24px;
+}
 #header{
     position: fixed;
     top:0;
@@ -28,11 +31,13 @@ body{
 }
 #body-div ul li{
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 18px;
+    height: 65px;
     list-style: none;
     border: 1px solid #272525;
     border-radius: 4px;
     box-shadow:1.5px 1.5px #9b9999;
+    padding-bottom:18px;
     margin-bottom:5px;
 }
 #body-div a{

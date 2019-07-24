@@ -2,7 +2,7 @@ var eventList = [
   {
     id: 1,
     eventname: "event-one",
-    startday: "04 Jul",
+    startday: "04 July",
     starttime: "10am",
     endday: "06 Jul",
     endtime: "4pm",
@@ -11,7 +11,7 @@ var eventList = [
   {
     id: 2,
     eventname: "event-two",
-    startday: "14 Jul",
+    startday: "14 July",
     starttime: "11am",
     endday: "16 Jul",
     endtime: "4pm",
@@ -29,7 +29,7 @@ var eventList = [
   {
     id: 4,
     eventname: "event-four",
-    startday: "27 Mar",
+    startday: "27 March",
     starttime: "9:30am",
     endday: "28 Mar",
     endtime: "4pm",
