@@ -1,9 +1,11 @@
 $(document).ready(() => {
+  console.log(eventList);
   console.log(window.location);
   var url = window.location.href;
   console.log(url);
   //var param = ;
   var params = window.location.search.split("?id=");
+  console.log(params);
   var idvalue = params[1];
   console.log(idvalue);
   eventList.filter(item => {
@@ -13,15 +15,21 @@ $(document).ready(() => {
     }
   });
 });
-
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8
+  });
+}
 function showEventdata(item) {
   console.log(item);
   return `
 		<div id="day_name">
        <p>${item.startday} ${item.eventname}</p>
     </div>
-    <div id="googlemap">
-        GoogleMap
+    <div id="map-page">
+      <div id="map"></div>
     </div>
     <div id="eventdetails">
         <h3>Details</h3>

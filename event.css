@@ -42,8 +42,22 @@ body{
 h3{
     font-size:20px;
 }
-#googlemap{
-    text-align: center;
+#map-page{
+    margin-left:20%;
+    border:1px solid #4e4c47;
+    border-radius: 2px;
+    box-shadow:1px 1.5px rgb(44, 32, 32);
+    width:600px;
+    height: 250px;
+}
+#map{
+    height: 100%;
+}
+@media (max-width: 540vw){
+    #map-page{
+        margin:10px;
+        width: auto;
+    }
 }
 #eventdetails{
     margin:15px 10px 15px 15px;
