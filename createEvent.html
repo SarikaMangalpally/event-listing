@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Event</title>
+    <link rel="stylesheet" href="createEvent.css" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="eventdata.js" type="text/javascript"></script>
+    <script src="createEvent.js" type="text/javascript"></script>
+    </head>
+<body>
+  <form  method="POST" id ="form">
+    <div>
+      <label for="event-name" class="labels">Event Name:</label>
+      <input type="text" name="eventname" id="event-name" class="inputLabels">
+      <span id = "eventname"></span>
+    </div>
+    <div>
+      <label for="start-day" class="labels">Start Day:</label>
+      <input id ="start-day" name="startdate" class="inputLabels" type="date">
+      <span id="startday"></span>
+    </div>
+    <div>
+      <label for="start-time" class="labels">Start Time:</label>
+      <input type="time" name="starttime" id="start-time" class="inputLabels">
+      <span id="starttime"></span>
+    </div>
+    <div>
+      <label for="end-day" class="labels">End Day:</label>
+      <input id = "end-day" name="enddate" class="inputLabels" type="date">
+      <span id = "endday"></span>
+    </div>
+    <div>
+      <label for="end-time" class="labels">End Time:</label>
+      <input type="time" name="endtime" id="end-time" class="inputLabels">
+      <span id="endtime"></span>
+    </div>
+    <div>
+      <label for="place" class="labels">Place:</label>
+      <input type="text" name="eventplace" id="place" class="inputLabels">
+      <span id="Place"></span>
+    </div>
+    <div>
+      <input type="submit" name="cancel" value="cancel" id="cancel">
+      <input type="submit" name="create" value="create" id="submit">
+    </div>
+  </form>
+</body>
+</html>

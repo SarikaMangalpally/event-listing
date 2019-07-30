@@ -12,6 +12,9 @@
 }
 #headerList li{
     font-size:24px;
+    display: inline-block;
+    padding:0px 12px;
+
 }
 #header{
     position: fixed;
@@ -27,7 +30,12 @@ body{
     background-color: #f8f79c48;
 }
 #body-div{
-    width: 45%;
+    width: 600px;
+}
+@media(min-width:45vw){
+#body-div ul{
+    width: 55vw;
+}
 }
 #body-div ul li{
     line-height: 1.5;

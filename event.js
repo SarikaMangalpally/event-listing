@@ -1,4 +1,6 @@
 $(document).ready(() => {
+  var eventList = storage.getItem("lists");
+  eventList = JSON.parse(eventList);
   console.log(eventList);
   console.log(window.location);
   var url = window.location.href;

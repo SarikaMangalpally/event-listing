@@ -1,7 +1,14 @@
 $("document").ready(() => {
-  eventList.forEach(item => {
-    $("#test").append(buildListItem(item));
-  });
+  var eventList = storage.getItem("lists");
+  eventList = JSON.parse(eventList);
+  console.log(eventList);
+  if (eventList !== null) {
+    eventList.forEach(item => {
+      $("#test").append(buildListItem(item));
+    });
+  } else {
+    console.log("no events!");
+  }
 });
 
 function buildListItem(item) {
